@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  font-family:Arial;
+  margin: 20px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    /*border: 1px solid red;*/
+}
+.header {
+  border-bottom: 5px solid black;
+  background-color: red;
+  height: 110px;
+}
+.site-title{
+  font-size: 50px;
+}
+.site-address{
+  border-left: 5px solid black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+ul.horizontal-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ul.horizontal-list li {
+  float: left;
+}
+ul.horizontal-list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.main-text {
+  font-size: 16px;
+  margin-top: 25px;
+}
+.signature{
+  font-style: italic;
+  }
+.special{
+  margin-top: 25px;
+  border: 5px solid black;
+  /*border-top: 0px;*/
+}
+.image-home{
+    margin-left: 10px;
+}
+.title-class{
+  font-size: 20px;
+  font-weight: bold;
+}
+.private-lessons {
+  border-top: 5px solid black;
+}
