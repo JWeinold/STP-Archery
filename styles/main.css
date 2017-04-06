@@ -54,7 +54,7 @@ ul.horizontal-list li a {
   text-decoration: none;
 }
 li a:hover {
-    background-color: #111;
+    background-color: red;
 }
 .main-text {
   font-size: 16px;
